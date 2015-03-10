@@ -15,6 +15,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toast.makeText(getApplicationContext(), "Application on create", Toast.LENGTH_SHORT).show();
         Log.d("MonPremierToast", "OnCreate appele!");
     }
 
