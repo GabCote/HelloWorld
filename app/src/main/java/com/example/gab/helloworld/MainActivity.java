@@ -15,7 +15,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.d("MonPremierToast", "OnCreate appele!");
+        Log.d("MonPremierToast", "OnCreate annabanana!");
     }
 
 
